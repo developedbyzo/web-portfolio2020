@@ -1,0 +1,53 @@
+* {
+  margin: 0 !important;
+}
+.navbar {
+  background: none;
+}
+
+#portfolio-logo {
+  width: 20px;
+}
+
+.nav-item .nav-link {
+  font-size: small;
+}
+
+#jumbo-img {
+  /* display: inline-block; */
+    height: 615px;
+    width: 100%;
+    overflow: hidden;
+}
+#jumbo-img img {
+  width: 100%;
+}
+
+#skills {
+  background: #2f4357;
+  
+  width: 100%;
+}
+.skill-icons {
+  height: 100px;
+  width: 100px;
+}
+.carousel {
+  background: #2f4357;
+  margin-top: 20px;
+}
+.carousel-item {
+  text-align: center !important;
+  background: black;
+  min-height: 180px;  /*Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.skills-carousel {
+margin: 20px;
+}
+
+
+#projects {
+  width: 100%;
+  height: 587px;
+  overflow: auto;
+}
